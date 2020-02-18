@@ -1,0 +1,21 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+/* HEADER */
+header nav.navbar {
+	position: fixed;
+    width: 100%;
+}
+
+.login, .register {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login h1, .register h1 {
+	text-align: center;
+}

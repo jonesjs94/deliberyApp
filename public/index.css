@@ -1,6 +1,13 @@
-html, body {
+html, 
+body {
 	height: 100%;
 	width: 100%;
+}
+
+.container {
+	min-height: 100%;
+	width: 100%;
+	padding-top: 60px;
 }
 
 /* HEADER */
@@ -9,13 +16,74 @@ header nav.navbar {
     width: 100%;
 }
 
-.login, .register {
-	height: 100%;
+/*-------------------------- RUTAS --------------------------*/
+
+/* NEGOCIOS Y NEGOCIO */
+.negocios h1 {
+	margin: 30px 0 10px 0;
+}
+
+.negocios .col-6 {
+	margin-bottom: 10px;
+}
+
+.negocio .promocion {
+	margin: 10px 0;
+}
+
+.negocio .promocion ul {
+	margin-bottom: 0;
+}
+
+.negocio .promocion ul li {
+	font-size: 75%;
+	margin-bottom: 0;
+}
+
+.negocio div.detalles-promo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-left: 1px solid rgb(0,0,0,.125);
+	background: #343a40;
+}
+
+.negocio div.detalles-promo p {
+	color: #fff;
+}
+
+		/* Menú */
+.negocio div.botones-menu div {
+	border-radius: 5px;
+    box-shadow: 3px 4px 16px -2px;
+}		
+
+.negocio div.botones-menu div a {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    color: white;
+    background: #343a40;
+    border-radius: 5px 5px 0 0;
+}
+
+.negocio div.botones-menu div p {
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #343a40;
+    margin-bottom: 0;
+}
+
+/* ENTRAR Y REGISTRO */
+.entrar, 
+.registrarse {
+	padding: 60px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.login h1, .register h1 {
+.entrar h1, .registrarse h1 {
 	text-align: center;
 }
+
